@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Atmosfera4
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/atmosfera
+    username: root
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
